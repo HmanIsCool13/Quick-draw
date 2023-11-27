@@ -1,0 +1,32 @@
+body
+{
+    background-color: #fbd139;
+}
+h1
+{
+    color:rgb(38, 0, 255);
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float:right;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: me;
+    animation-duration: 4s;
+    margin-top:250px ;
+    animation-iteration-count: infinite;
+}
+@keyframes me{
+    from{box-shadow:10px 10px 38px pink;}
+    to{box-shadow: 10px 10px 38px violet; }
+}
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
